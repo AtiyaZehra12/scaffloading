@@ -830,7 +830,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <a href="/products/steel-pipes">
+            <a href="/products/steel-pipes" className="h-full">
               <Card className="bg-[#1f2937] border-[#374151]">
                 <CardContent className="p-6">
                   <div className="mb-4">
@@ -870,7 +870,7 @@ export default function Home() {
               </Card>
             </a>
 
-            <a href="/products/couplers">
+            <a href="/products/couplers" className="h-full">
               <Card className="bg-[#1f2937] border-[#374151]">
                 <CardContent className="p-6">
                   <div className="mb-4">
@@ -910,7 +910,7 @@ export default function Home() {
               </Card>
             </a>
 
-            <a href="/products/scaffolding-frames">
+            <a href="/products/scaffolding-frames" className="h-full">
               <Card className="bg-[#1f2937] border-[#374151]">
                 <CardContent className="p-6">
                   <div className="mb-4">
@@ -1012,7 +1012,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-white font-semibold text-sm md:text-base">Our Location</h4>
-                <p className="text-[#9ca3af] text-xs md:text-sm">123 Industrial Zone, Dubai, UAE</p>
+                <p className="text-[#9ca3af] text-xs md:text-sm">The Metropolis-Business Bay, Floor 15 / Office 1516 Dubai, UAE</p>
               </div>
             </div>
 
@@ -1022,7 +1022,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-white font-semibold text-sm md:text-base">Phone Number</h4>
-                <p className="text-[#9ca3af] text-xs md:text-sm">+971 4 123 4567</p>
+                <p className="text-[#9ca3af] text-xs md:text-sm">+971 5 074 4196</p>
               </div>
             </div>
 
