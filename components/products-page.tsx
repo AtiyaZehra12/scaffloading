@@ -765,7 +765,7 @@ export default function ProductPage() {
       name: "Heavy Duty Pipes",
       description: "Durable galvanized steel for industrial scaffolding applications",
       price: "$45.30/unit",
-      image: "/p-product-1.png?height=200&width=300",
+      image: "/image1.png?height=100&width=100",
       icon: "/product-1 Frame.png",
       action: "View Details",
     },
@@ -774,7 +774,7 @@ export default function ProductPage() {
       name: "Steel Couplers",
       description: "High-strength clamps for secure pipe connections and joints",
       price: "$12.50/unit",
-      image: "/p-product-2.png?height=200&width=300",
+      image: "/image2.png?height=200&width=300",
       icon: "/product-2 Frame.png",
       action: "Add to Cart",
     },
@@ -783,7 +783,7 @@ export default function ProductPage() {
       name: "Mobile Wheels",
       description: "Heavy-duty casters for mobile scaffolding platforms",
       price: "$28.75/set",
-      image: "/p-product-3.png?height=200&width=300",
+      image: "/image3.png?height=200&width=300",
       icon: "/product-3 Frame.png",
       action: "View Details",
     },
@@ -792,7 +792,7 @@ export default function ProductPage() {
       name: "Platform Decks",
       description: "Anti-slip aluminum platforms for safe working surfaces",
       price: "$89.90/unit",
-      image: "/p-product-4.png?height=200&width=300",
+      image: "/image4.png?height=200&width=300",
       icon: "/product-4 Frame.png",
       action: "Add to Cart",
     },
@@ -801,7 +801,7 @@ export default function ProductPage() {
       name: "Safety Rails",
       description: "Protective guardrails for enhanced workplace safety",
       price: "$34.25/unit",
-      image: "/p-product-5.png?height=200&width=300",
+      image: "/image5.png?height=100&width=200",
       icon: "/product-5 Frame.png",
       action: "View Details",
     },
@@ -824,7 +824,7 @@ export default function ProductPage() {
       <header className="bg-[#000000] py-4 sticky top-0 z-50">
              <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="relative w-[100px] h-12"> {/* Adjust width and height as needed */}
+        <div className="relative w-[200px] h-12"> {/* Adjust width and height as needed */}
           <Image
             src="/navlogo.png"
             alt="Manal Abed Logo"
