@@ -13,55 +13,37 @@ export default function ProductPage() {
       id: 1,
       name: "Heavy Duty Pipes",
       description: "Durable galvanized steel for industrial scaffolding applications",
-      price: "$45.30/unit",
       image: "/image1.png?height=100&width=100",
-      icon: "/product-1 Frame.png",
-      action: "View Details",
     },
     {
       id: 2,
       name: "Steel Couplers",
       description: "High-strength clamps for secure pipe connections and joints",
-      price: "$12.50/unit",
       image: "/image2.png?height=200&width=300",
-      icon: "/product-2 Frame.png",
-      action: "Add to Cart",
     },
     {
       id: 3,
       name: "Mobile Wheels",
       description: "Heavy-duty casters for mobile scaffolding platforms",
-      price: "$28.75/set",
       image: "/image3.png?height=200&width=300",
-      icon: "/product-3 Frame.png",
-      action: "View Details",
     },
     {
       id: 4,
       name: "Platform Decks",
       description: "Anti-slip aluminum platforms for safe working surfaces",
-      price: "$89.90/unit",
       image: "/image4.png?height=200&width=300",
-      icon: "/product-4 Frame.png",
-      action: "Add to Cart",
     },
     {
       id: 5,
       name: "Safety Rails",
       description: "Protective guardrails for enhanced workplace safety",
-      price: "$34.25/unit",
       image: "/image5.png?height=100&width=200",
-      icon: "/product-5 Frame.png",
-      action: "View Details",
     },
     {
       id: 6,
       name: "Base Plates",
       description: "Sturdy foundation plates for stable scaffolding setup",
-      price: "$18.50/unit",
       image: "/p-product-6.png?height=200&width=300",
-      icon: "/product-6 Frame.png",
-      action: "Add to Cart",
     },
   ]
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -154,20 +136,6 @@ export default function ProductPage() {
                   <h3 className="text-xl font-semibold mb-2 text-white">{product.name}</h3>
                   <p className="text-[#9ca3af] text-sm mb-4 leading-relaxed">{product.description}</p>
 
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-lg font-bold text-[#ff0000]">{product.price}</span>
-                  </div>
-
-                  {/* Icon above the action button */}
-                  {product.icon && (
-                    <div className="absolute right-2 bottom-20 w-6 h-6">
-                      <Image src={product.icon} alt="icon" fill className="object-contain" />
-                    </div>
-                  )}
-
-                  <Button className="w-full bg-[#ff0000] hover:bg-[#cc0000] text-white font-medium py-2">
-                    {product.action}
-                  </Button>
                 </CardContent>
               </Card>
             ))}

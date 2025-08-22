@@ -134,12 +134,13 @@ export default function Home() {
                 About Manal Abed
               </h2>
               <p className="text-[#9ca3af] mb-4 text-center lg:text-left">
-                With over 15 years of experience in the construction industry, Manal Abed has established itself as a
-                leading provider of high-quality scaffolding materials and thermal testing services.
+                As a growing startup in the construction industry, Manal Abed is dedicated 
+                to providing dependable scaffolding materials and thermal testing services.
               </p>
               <p className="text-[#9ca3af] mb-6 md:mb-8 text-center lg:text-left">
-                Our mission is to deliver reliable, safe, and durable scaffolding solutions that meet the highest
-                international safety standards, ensuring the success and safety of your construction projects.
+                 Our vision is to bring innovative, safe, and cost-effective scaffolding solutions
+                 to construction projects of all sizes, while building a strong reputation for quality
+                 and reliability from the very beginning of our journey.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
@@ -448,7 +449,27 @@ export default function Home() {
                 every project.
               </p>
               <div className="flex justify-center md:justify-start space-x-4">
-                <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center">
+              <a
+              href="https://www.instagram.com/magtradingdxb?igsh=MTd1eDE3emh3bW5tMQ=="
+              target="_blank"
+              rel="noopener noreferrer">
+              <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center cursor-pointer">
+              <span className="text-white text-sm">ig</span>
+              </div>
+              </a>
+              <a
+              href="https://x.com/ManalAbedllc"
+              target="_blank"
+              rel="noopener noreferrer" >
+              <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center cursor-pointer">
+                <span className="text-white text-sm">X</span>
+              </div>
+              </a>
+
+
+
+
+                {/* <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center">
                   <span className="text-white text-sm">f</span>
                 </div>
                 <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center">
@@ -459,7 +480,7 @@ export default function Home() {
                 </div>
                 <div className="w-8 h-8 bg-[#ff0000] rounded-full flex items-center justify-center">
                   <span className="text-white text-sm">ig</span>
-                </div>
+                </div> */}
               </div>
             </div>
 
