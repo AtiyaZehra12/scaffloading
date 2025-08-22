@@ -9,42 +9,67 @@ import Link from "next/link"
 
 export default function ProductPage() {
   const products = [
-    {
-      id: 1,
-      name: "Heavy Duty Pipes",
-      description: "Durable galvanized steel for industrial scaffolding applications",
-      image: "/image1.png?height=100&width=100",
-    },
-    {
-      id: 2,
-      name: "Steel Couplers",
-      description: "High-strength clamps for secure pipe connections and joints",
-      image: "/image2.png?height=200&width=300",
-    },
-    {
-      id: 3,
-      name: "Mobile Wheels",
-      description: "Heavy-duty casters for mobile scaffolding platforms",
-      image: "/image3.png?height=200&width=300",
-    },
-    {
-      id: 4,
-      name: "Platform Decks",
-      description: "Anti-slip aluminum platforms for safe working surfaces",
-      image: "/image4.png?height=200&width=300",
-    },
-    {
-      id: 5,
-      name: "Safety Rails",
-      description: "Protective guardrails for enhanced workplace safety",
-      image: "/image5.png?height=100&width=200",
-    },
-    {
-      id: 6,
-      name: "Base Plates",
-      description: "Sturdy foundation plates for stable scaffolding setup",
-      image: "/p-product-6.png?height=200&width=300",
-    },
+ {
+  id: 1,
+  name: "Adjustable Telescopic Props",
+  description: "Strong, adjustable steel props used for supporting slabs, beams, and formwork.",
+  image: "/Adjustable Telescopic Props.jpg",
+},
+{
+  id: 2,
+  name: "Cuplock Scaffolding System",
+  description: "Quick-lock modular system for safe, versatile, and efficient scaffolding structures.",
+  image: "/Cuplock Scaffolding System.jpeg",
+},
+{
+  id: 3,
+  name: "Cuplock Vertical Standards (Red Painted)",
+  description: "Vertical load-bearing posts with cups for secure ledger connections.",
+  image: "/Cuplock Vertical Standards (Red Painted).jpeg",
+},
+{
+  id: 4,
+  name: "Platform Decks",
+  description: "Durable anti-slip working platforms ensuring safe access on scaffolding.",
+  image: "/Platform Deck.jpeg",
+},
+{
+  id: 5,
+  name: "Cuplock Vertical Standards (Blue Painted)",
+  description: "High-strength steel standards designed for vertical support in scaffolding.",
+  image: "/Cuplock Vertical Standards (Blue Painted).png",
+},
+{
+  id: 6,
+  name: "Base Plates",
+  description: "Heavy-duty base plates providing stable foundations for scaffolding setups.",
+  image: "/p-product-6.png",
+},
+{
+  id: 7,
+  name: "Scaffolding Double Coupler",
+  description: "Right-angle coupler for connecting two scaffolding tubes at 90° securely.",
+  image: "/Scaffolding Double Coupler.jpeg",
+},  
+{
+  id: 8,
+  name: "Scaffolding Sleeve Coupler",
+  description: "Joint coupler for connecting scaffolding tubes end-to-end in alignment.",
+  image: "/Scaffolding Sleeve Coupler.jpg",
+},  
+{
+  id: 9,
+  name: "Scaffolding Wing Nut",
+  description: "Formwork accessory used with tie rods for strong and easy tightening.",
+  image: "/Scaffolding Wing Nut-Picsart-AiImageEnhancer.jpg",
+},  
+{
+  id: 10,
+  name: "Steel Pipes",
+  description: "High-quality steel pipes widely used as the backbone of scaffolding structures.",
+  image: "/Steel Pipes.jpeg",
+},  
+
   ]
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   
@@ -127,7 +152,7 @@ export default function ProductPage() {
                     src={product.image || "/placeholder.svg"}
                     alt={product.name}
                     fill
-                    className="object-cover"
+                    className="object-contain p-4"
                   />
                 </div>
 

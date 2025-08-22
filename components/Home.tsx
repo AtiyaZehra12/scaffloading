@@ -204,8 +204,8 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <a href="/products/steel-pipes" className="h-full">
-              <Card className="bg-[#1f2937] border-[#374151]">
-                <CardContent className="p-6">
+              <Card className="bg-[#1f2937] border-[#374151] h-full flex flex-col">
+                <CardContent className="p-6 flex flex-col flex-grow">
                   <div className="mb-4">
                     <Image
                       src="/product-1.png?height=200&width=300"
@@ -244,8 +244,8 @@ export default function Home() {
             </a>
 
             <a href="/products/couplers" className="h-full">
-              <Card className="bg-[#1f2937] border-[#374151]">
-                <CardContent className="p-6">
+              <Card className="bg-[#1f2937] border-[#374151] h-full flex flex-col">
+                <CardContent className="p-6 flex flex-col flex-grow">
                   <div className="mb-4">
                     <Image
                       src="/product-2.png?height=200&width=300"
@@ -284,8 +284,8 @@ export default function Home() {
             </a>
 
             <a href="/products/scaffolding-frames" className="h-full">
-              <Card className="bg-[#1f2937] border-[#374151]">
-                <CardContent className="p-6">
+              <Card className="bg-[#1f2937] border-[#374151] h-full flex flex-col">
+                <CardContent className="p-6 flex flex-col flex-grow">
                   <div className="mb-4">
                     <Image
                       src="/product-3.png?height=200&width=300"
@@ -395,7 +395,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-white font-semibold text-sm md:text-base">Phone Number</h4>
-                <p className="text-[#9ca3af] text-xs md:text-sm">+971 5 074 4196</p>
+                <p className="text-[#9ca3af] text-xs md:text-sm">+971 50 740 4196 | +971 55 509 2976</p>
               </div>
             </div>
 
@@ -405,7 +405,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-white font-semibold text-sm md:text-base">Email Address</h4>
-                <p className="text-[#9ca3af] text-xs md:text-sm">info@manalabed.com</p>
+                <p className="text-[#9ca3af] text-xs md:text-sm">manalabedgt@gmail.com</p>
               </div>
             </div>
 
@@ -420,7 +420,7 @@ export default function Home() {
             </div>
             <div className="bg-[#1f2937] rounded-lg overflow-hidden h-64 md:h-80">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.7326!2d55.2708!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e1147b67d!2s123%20Industrial%20Zone%2C%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1635000000000!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.542434611731!2d55.274327774470805!3d25.18492347771877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68319169f881%3A0x69266793dd38e629!2sThe%20Metropolis%20Tower%20-%20Business%20Bay%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1755861289468!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -493,28 +493,21 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
+                  <a href="#about-us" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
+                  <a href="/products" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
-                    Services
-                  </a>
+                 
                 </li>
                 <li>
-                  <a href="#" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
-                    Safety Standards
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
-                    Contact
+                  <a href="#contact-us" className="text-[#9ca3af] hover:text-white text-sm md:text-base">
+                    Contact Us
                   </a>
                 </li>
               </ul>
